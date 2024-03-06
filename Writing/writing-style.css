@@ -1,0 +1,74 @@
+body{
+    background-color: #D8D8D8;
+}
+
+div{
+    padding: 0px 0;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, sans-serif;
+    font-weight: 100;
+    color: #994444;
+    padding: 0px 0;
+    margin-bottom: -.5rem;
+}
+
+#phnl-home-header{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.list-without-bullets{
+    list-style-type: none;
+}
+
+#phnl-nav-list{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px;
+    margin-left: -2.2rem;
+    font-size: .75rem;
+    gap: 1rem;
+    flex: 1 1 0; /* this covers flex-grow, flex-shrink, and flex-basis respectively*/
+}
+
+a{
+    color: #994444;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    font-weight: 100;
+}
+
+a:hover{
+    color: #A9A9A9;
+}
+
+h3{
+    display: inline-block;
+    margin: 80px;
+    margin-bottom: -50px;
+    color: #994444;
+    font-family: Verdana, sans-serif;
+    font-weight: 100;
+}
+
+footer {
+    position: absolute;
+    padding: 5px;
+    background-color: #acaaaa2c;
+    color: #994444;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (min-width: 761.29px){
+
+    #phnl-nav-list{
+        font-size: 1rem;
+    }
+}

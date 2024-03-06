@@ -1,0 +1,61 @@
+body{
+    background-color: #D8D8D8;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, sans-serif;
+    font-weight: 100;
+    color: #994444;
+    padding: 0px 0;
+    margin-bottom: .75rem;
+}
+
+#phnl-home-header{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+video{
+    position: relative;
+    display: block;
+    justify-content: center;
+    margin-left: -2.5em;
+    margin-right: -1em;
+}
+
+.youtube-link{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #994444;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    padding: 5rem;
+}
+
+#phnl-nav-list{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    border: 1px;
+    margin: auto;
+    margin-left: -2rem;
+    font-size: 1rem;
+    gap: 1rem;
+    flex: 1 1 0; /* this covers flex-grow, flex-shrink, and flex-basis respectively*/
+}
+
+a{
+    color: #994444;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    font-weight: 100;
+}
+
+a:hover{
+    color: #A9A9A9;
+}

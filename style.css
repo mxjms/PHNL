@@ -1,0 +1,70 @@
+/* refer to flexbox tutorial for better positioning*/
+
+body{
+    background-color: #D8D8D8;
+}
+
+.home-body{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, sans-serif;
+    font-weight: 100;
+    color: #994444;
+    padding: 0px 0;
+}
+
+#phnl-home-header{
+    font-weight: 100;
+    font-size: 25px;
+    margin-top: 25rem; /* <------- not the best practice to vertically center items*/
+}
+
+#phnl-home-list{
+    list-style-type: none;
+    gap: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #994444;
+}
+
+a:hover{
+    color: #777676;
+}
+
+footer {
+    position: absolute;
+    padding: 5px;
+    background-color: #acaaaa2c;
+    color: #994444;
+    bottom: 0;
+    width: 100%;
+  }
+  @media (min-width:403.22px) and (max-width: 750px){
+
+    #phnl-home-header{
+        font-size: 1.4rem;
+    }
+
+    #phnl-home-list{
+        font-size: .75rem;
+    }
+}
+
+@media (max-width: 403.21px) {
+
+    #phnl-home-list{
+        font-size: .60rem;
+    }
+
+    #phnl-home-header{
+       font-size: 1rem;
+    }
+
+}
